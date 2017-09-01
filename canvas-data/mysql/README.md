@@ -26,3 +26,6 @@ UPDATE versions SET version = 1000 WHERE table_name = 'requests';
 ```
 
 You can also set the sequence number lower to load just a few days of the *requests* table. It will load any files with a sequence number greater than the corresponding *versions.version* value, so look in your *requests* folder and see what sequence numbers you have and then set the value accordingly.
+
+
+## Personal note: must download script on an automatic basis and manually run this everyday (or when you would like the data to be updated)
